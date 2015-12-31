@@ -1,5 +1,9 @@
 package chapter1;
-
+/**
+ * thread
+ * @author Leonardo
+ *
+ */
 public class PrimeGenerator extends Thread {
 
 	public void run(){

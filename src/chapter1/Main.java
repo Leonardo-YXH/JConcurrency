@@ -15,7 +15,7 @@ public class Main {
 		if(!Thread.interrupted()){
 			task.interrupt();
 		}
-		
+		new Thread(()->{});
 	}
 
 }
