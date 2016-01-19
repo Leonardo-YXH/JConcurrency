@@ -20,7 +20,7 @@ import java.util.concurrent.Semaphore;
  * unique shared resource, so the internal counter of the semaphore can only take the values
  * 1 or 0. To show how to use it, you are going to implement a print queue that can be used by
  * concurrent tasks to print their jobs. This print queue will be protected by a binary semaphore,
- * so only one thread can print at a time.
+ *  so only one thread can print at a time.
  * @author Leonardo
  *
  */
@@ -29,7 +29,7 @@ public class PrintQueue {
 	private final Semaphore semaphore;
 	
 	public PrintQueue(){
-		this.semaphore=new Semaphore(2);//可用线程资源（同时可以有两个线程访问）
+		this.semaphore=new Semaphore(2,true);//可用线程资源（同时可以有两个线程访问）,true公平模式
 	}
 	
 	public void printJob(Object document){
