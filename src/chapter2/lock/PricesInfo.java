@@ -103,7 +103,7 @@ public class PricesInfo {
 			//System.out.printf("%s:start getting Price at %s\n", Thread.currentThread().getName(),new Date().toString());
 			
 			double[] prices=pricesInfo.getPrices();
-			//System.out.printf("%s: Price 1: %f\n", Thread.currentThread().getName(),prices[0]);
+			System.out.printf("%s: Price 1: %f\n", Thread.currentThread().getName(),prices[0]);
 			//System.out.printf("%s: Price 2: %f\n", Thread.currentThread().getName(),prices[1]);
 			
 			

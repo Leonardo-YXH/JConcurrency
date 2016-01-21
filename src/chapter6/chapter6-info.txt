@@ -1,0 +1,10 @@
+* Non-blocking lists, using the ConcurrentLinkedDeque class
+* Blocking lists, using the LinkedBlockingDeque class
+* Blocking lists to be used with producers and consumers of data, using the
+LinkedTransferQueue class
+* Blocking lists that order their elements by priority, with the
+PriorityBlockingQueue
+* Blocking lists with delayed elements, using the DelayQueue class
+* Non-blocking navigable maps, using the ConcurrentSkipListMap class
+* Random numbers, using the ThreadLocalRandom class
+* Atomic variables, using the AtomicLong and AtomicIntegerArray classes
